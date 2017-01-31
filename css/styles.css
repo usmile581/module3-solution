@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+#header-nav {
+  background-color: lightSteelBlue ;
+  border-radius: 0;
+  border: 2px solid;
+}
+.navbar-header h1 {
+  margin:  15px auto 20px 15px;
+  font-weight: bold;
+}
+
+.food-details {
+  font-size:1.2em;
+}
+
+.food {
+  background-color: lightSteelBlue;
+  overflow: hide;
+
+}
+
