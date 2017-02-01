@@ -59,6 +59,7 @@ body {
 
 .food-details {
   font-size:1.2em;
+  padding: 15px;
 }
 
 #chicken-tile, #beef-tile, #sushi-tile{
@@ -68,7 +69,6 @@ body {
   height: 700px;
   margin-top: 10px;
   margin-bottom: 15px;
-  padding: auto 15px auto 15px;
 }
 
 #nav-list li {
