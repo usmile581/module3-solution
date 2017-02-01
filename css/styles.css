@@ -5,7 +5,7 @@
 }
 
 body { 
-  padding-top: 70px; 
+  padding-top: 90px; 
 }
 
 #header-nav {
@@ -64,7 +64,7 @@ body {
 #chicken-tile, #beef-tile, #sushi-tile{
   background-color: lightSteelBlue;
   position: relative;
-  overflow: hide;
+  overflow: hidden;
   height: 700px;
 }
 
