@@ -3,23 +3,77 @@
   margin: 0;
   padding:0;
 }
+
 #header-nav {
-  background-color: lightSteelBlue ;
+  background-color: lightSteelBlue;
   border-radius: 0;
   border: 2px solid;
 }
-.navbar-header h1 {
+
+.navbar-header h1 {/*brand*/
   margin:  15px auto 20px 15px;
   font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+  line-height: 0.75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+/*fix the header display*/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+#collapsable-nav ul{
+  background-color: #EBF4FE;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  padding: 10px;
+  font-size: 1.7em;
+  color: black;
+ }
+
+.divider{
+  height:1px;
+  margin:9px 0;
+  overflow:hidden;
+  background-color:#e5e5e5
+}
+
+
+/*main content*/
+#main-content.container-fluid {
+    margin: auto 15px auto 15px;
+}
+#main-content h1 {
+  margin:0px;
+  padding-bottom: 15px;
+  font-family: constantia;
 }
 
 .food-details {
   font-size:1.2em;
 }
 
-.food {
+#chicken-tile, #beef-tile, #sushi-tile{
   background-color: lightSteelBlue;
+  position: relative;
   overflow: hide;
-
 }
 
+#nav-list li {
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+#nav-list a:hover { 
+  font-weight: bold;
+  background: #E7E7E7;
+}
+
+#linktobasic a {
+  float: right;
+}
