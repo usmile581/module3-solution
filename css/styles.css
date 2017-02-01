@@ -61,6 +61,7 @@
   background-color: lightSteelBlue;
   position: relative;
   overflow: hide;
+  height: 700px;
 }
 
 #nav-list li {
