@@ -14,78 +14,67 @@
 <body>
  <header>
     <nav id="header-nav" class="navbar navbar-default">
-    <div class="navbar-header">
-      <h1>Food, LLC</h1>
+      <div class="container">
+        <div class="navbar-header ">
+          <h1>Food, LLC</h1>
 
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>   
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>   
+        </div><!-- End of #navbar-header -->
       
-      <!--menus / navigation buttons-->       
-<div id="collapsable-nav" class="collapse navbar-collapse">
-           <!--nav navbar-nav: turn ul to nicely done menu-->  
-           <!--navbar-right: float navigation to the right-->  
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-           <!--add "Home" to teh navbar-->    
-             <li class="visible-xs active">
-              <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span> Home</a>
-            </li> 
-      </nav>
- </header>
-      <div class="bs-example">
-    <nav role="navigation" class="navbar navbar-default">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand">Brand</a>
+        <!--menus / navigation buttons-->       
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav" aria-labelledby="dropdownMenuDivider">
+            <li class="hidden-md hidden-sm hidden-lg"><a href="#chicken-tile">Chicken</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="hidden-md hidden-sm hidden-lg"><a href="#beef-tile">Beef</a></li>
+           <li role="separator" class="divider"></li>
+            <li class="hidden-md hidden-sm hidden-lg"><a href="#sushi-tile">Sushi</a></li>
+          </ul>                
         </div>
-        <!-- Collection of nav links and other content for toggling -->
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Messages</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Login</a></li>
-            </ul>
-        </div>
+      </div><!-- End of #container -->
     </nav>
-</div>
-      
+ </header>
+
+
  <!-- main content starts here -->        
- <div id="main-content" class="container">
+ <div id="main-content" class="container-fluid">
    <h1 class="text-center">Our Menu</h1>
-    <section class="row">
+    <section id="home-tiles" class="row">
       <div class="col-md-4 col-sm-6 col-xs-12 food">
-        <h2 class="text-center">Chicken</h2>
-        <p class="food-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
+        <div id="chicken-tile">
+          <h3 class="text-center">Chicken</h3>
+          <p class="food-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! </p>
+           </div>
+        </div>
+      
+      <div class="col-md-4 col-sm-6 col-xs-12 food">
+        <div id="beef-tile">
+          <h3 class="text-center">Beef</h3>
+          <p class="food-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          <p><a href="#chicken-tile">Back to top</a></p>
+        </div>
       </div>
       
-      <div id="be"  class="col-md-4 col-sm-6 col-xs-12 food">
-        <h2 class="text-center">Beef</h2>
-        <p class="food-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
+      <div class="col-md-4 col-sm-12 col-xs-12 food">
+        <div id="sushi-tile">
+          <h3 class="text-center">Sushi</h3>
+          <p class="food-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
+          </div>
       </div>
       
-      <div id="su"  class="col-md-4 col-sm-12 col-xs-12 food">
-        <h2 class="text-center">Sushi</h2>
-        <p class="food-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
-      </div>
+   <div id="linktobasic"> <a  href="/basic.html">Go to basic assignment</a></div>      
       
-      
-      
+
 </div><!-- End of #main-content -->
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>       
 </body>
 </html>
